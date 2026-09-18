@@ -31,6 +31,10 @@ The topology was designed and configured using Cisco Packet Tracer.
 - Usable Host Range: `192.168.1.1 - 192.168.1.254`
 - Broadcast: `192.168.1.255`
 - Usable Hosts: 254
+- enable = Branch1
+- console = Israr
+- Username = Branch-1  secret = Branch1
+- Management vlan 99
 
 ### Branch 2
 
@@ -39,6 +43,10 @@ The topology was designed and configured using Cisco Packet Tracer.
 - Usable Host Range: `172.16.1.1 - 172.16.1.126`
 - Broadcast: `172.16.1.127`
 - Usable Hosts: 126
+- enable = Branch2
+- console = Israr
+- Username = Branch-2  secret = Branch2
+- Management vlan 99
 
 ### Branch 3
 
@@ -47,6 +55,10 @@ The topology was designed and configured using Cisco Packet Tracer.
 - Usable Host Range: `10.0.0.1 - 10.0.0.14`
 - Broadcast: `10.0.0.15`
 - Usable Hosts: 14
+- - enable = Branch3
+- console = Israr
+- Username = Branch-3  secret = Branch3
+- Management vlan 99
 
 ---
 
@@ -62,6 +74,11 @@ Each branch uses a separate IPv4 network.
 
 ---
 
+## ISP router
+
+- enable secret = ISP
+- console = Israr
+- username = ISP-router pass ISP
 ## Technologies
 
 - Cisco Packet Tracer
